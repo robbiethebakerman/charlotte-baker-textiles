@@ -1,0 +1,27 @@
+.nav {
+    width: 100%;
+    padding: 1rem;
+}
+
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.list li a {
+    /* text-transform: uppercase; */
+    font-weight: bold;
+    padding: 0.2rem;
+}
+
+.list li a:hover,
+.list li a:focus,
+.list li a:active {
+    text-decoration: underline;
+    /* text-decoration-color: #e2f0d9; */
+    /* color: #e2f0d9; */
+    background-color: #e2f0d9;
+}
