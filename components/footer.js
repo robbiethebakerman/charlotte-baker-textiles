@@ -26,17 +26,6 @@ export default function Footer() {
                     className={styles.icon}
                 />
             </a>
-            <a
-                href="https://twitter.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                <img
-                    src="twitter.png"
-                    alt="Twitter Logo"
-                    className={styles.icon}
-                />
-            </a>
         </footer>
     );
 }
