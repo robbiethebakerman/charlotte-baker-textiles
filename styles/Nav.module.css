@@ -22,3 +22,27 @@
     text-decoration: underline;
     background-color: var(--main-highlight-color);
 }
+
+.hamburgerSlice {
+    width: 1.4rem;
+    height: 2px;
+    background-color: var(--main-font-color);
+    margin: 0.25rem 0;
+}
+
+.hamburgerButton {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .hamburgerButton {
+        display: block;
+    }
+
+    .list {
+        display: none;
+    }
+
+    .listResponsive {
+    }
+}

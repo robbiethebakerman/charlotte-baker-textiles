@@ -22,8 +22,15 @@ h1 {
     margin-block-end: 0; /* override user agent stylesheet */
 }
 
+button {
+    border: none;
+    padding: 0;
+    background-color: white;
+}
+
 /* custom properties */
 
 :root {
     --main-highlight-color: #e2f0d9;
+    --main-font-color: black;
 }
