@@ -8,17 +8,11 @@
 }
 
 .main {
-    padding: 5rem 0;
+    padding: 1rem 0;
     flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+    background-color: var(--main-highlight-color); /* for easy layout testing */
 }
 
 @media (max-width: 600px) {
-    .grid {
-        width: 100%;
-        flex-direction: column;
-    }
 }

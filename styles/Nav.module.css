@@ -1,6 +1,6 @@
 .nav {
     width: 100%;
-    padding: 1rem;
+    padding: 1rem 1rem 0 1rem;
 }
 
 .list {
@@ -12,7 +12,6 @@
 }
 
 .list li a {
-    /* text-transform: uppercase; */
     font-weight: bold;
     padding: 0.2rem;
 }
