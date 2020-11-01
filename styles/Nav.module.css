@@ -21,7 +21,5 @@
 .list li a:focus,
 .list li a:active {
     text-decoration: underline;
-    /* text-decoration-color: #e2f0d9; */
-    /* color: #e2f0d9; */
-    background-color: #e2f0d9;
+    background-color: var(--main-highlight-color);
 }
