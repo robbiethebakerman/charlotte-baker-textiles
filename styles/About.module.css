@@ -1,0 +1,4 @@
+.grid {
+    display: grid;
+    grid-template: 1fr / 40% 60%;
+}
