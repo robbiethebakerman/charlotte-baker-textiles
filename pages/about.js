@@ -7,8 +7,16 @@ export default function About() {
         <Layout>
             <h1 className={common.title}>About Me</h1>
             <div className={styles.grid}>
-                <div></div>
-                <div>
+                <div className={common.imageContainer}>
+                    <div>
+                        <img
+                            src="/CB.png"
+                            alt="Charlotte Baker Textiles logo"
+                            className={common.image}
+                        ></img>
+                    </div>
+                </div>
+                <div className={common.textBody}>
                     <p>
                         Charlotte ewqgew ewgqq ewgweg eqwg ewqgwee qw gweg w b e
                         req bwo weo. Ebq oo eob ewb oeqob oweb. Kewqkbwe bjkq ew

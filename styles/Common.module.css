@@ -2,3 +2,18 @@
     font-size: 3rem;
     text-align: center;
 }
+
+.textBody p {
+    line-height: 1.5;
+    text-align: justify;
+    padding: 0 1rem;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.imageContainer div img {
+    max-width: 100%;
+}
