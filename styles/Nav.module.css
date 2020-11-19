@@ -1,6 +1,6 @@
 .nav {
     width: 100%;
-    padding: 1rem 1rem 0 1rem;
+    padding: 1rem 0;
 }
 
 .list {
@@ -24,10 +24,10 @@
 }
 
 .hamburgerSlice {
-    width: 1.4rem;
+    width: 2rem;
     height: 2px;
     background-color: var(--main-font-color);
-    margin: 0.25rem 0;
+    margin: 0.4rem 0;
 }
 
 .hamburgerButton {
@@ -36,7 +36,9 @@
 
 @media screen and (max-width: 600px) {
     .hamburgerButton {
-        display: block;
+        display: inline-block;
+        /* padding: 0.4rem; */
+        margin-left: 1rem;
     }
 
     .list {
@@ -44,5 +46,23 @@
     }
 
     .listResponsive {
+        display: block;
+        z-index: 1;
+        position: fixed;
+        background-color: white;
+        margin-top: 1rem;
+    }
+
+    .listResponsive li a {
+        display: inline-block;
+        width: 100%;
+        font-size: 1.2rem;
+        padding: 0.4rem;
+        border: 1px solid var(--main-font-color);
+        border-bottom: none;
+    }
+
+    .listResponsive:last-child {
+        border-bottom: 1px solid var(--main-font-color);
     }
 }

@@ -7,7 +7,7 @@ export default function Nav() {
 
     function handleHamburgerClick() {
         if (listClass === styles.list) {
-            setListClass(styles.listResponsive);
+            setListClass(`${styles.listResponsive} ${styles.list}`);
         } else {
             setListClass(styles.list);
         }
@@ -23,7 +23,7 @@ export default function Nav() {
                 <div className={styles.hamburgerSlice}></div>
                 <div className={styles.hamburgerSlice}></div>
             </button>
-            <ul className={listClass} id="navList">
+            <ul className={listClass}>
                 <li>
                     <Link href="/">Home</Link>
                 </li>
