@@ -1,6 +1,5 @@
 .container {
     min-height: 100vh;
-    /* padding: 0 0.5rem; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,7 +10,6 @@
     padding: 1rem 0;
     flex: 1;
     width: 100%;
-    background-color: var(--main-highlight-color); /* for easy layout testing */
 }
 
 @media (max-width: 600px) {
