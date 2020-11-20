@@ -1,7 +1,8 @@
 .grid {
     padding: 0 1rem;
     display: grid;
-    grid-template: 1fr / 40% 60%;
+    grid-template: 1fr / 40% 57%;
+    column-gap: 3%;
 }
 
 @media (max-width: 600px) {
