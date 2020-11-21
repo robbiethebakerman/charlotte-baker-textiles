@@ -31,19 +31,19 @@ export default function Nav() {
                     <Link href="/about">About</Link>
                 </li>
                 <li>
-                    <Link href="/">Services</Link>
+                    <Link href="/services">Services</Link>
                 </li>
                 <li>
-                    <Link href="/">Projects</Link>
+                    <Link href="/projects">Projects</Link>
                 </li>
                 <li>
-                    <Link href="/">Media</Link>
+                    <Link href="/media">Media</Link>
                 </li>
                 <li>
-                    <Link href="/">Contact</Link>
+                    <Link href="/contact">Contact</Link>
                 </li>
                 <li>
-                    <Link href="/">Collection</Link>
+                    <Link href="/collection">Collection</Link>
                 </li>
             </ul>
         </nav>

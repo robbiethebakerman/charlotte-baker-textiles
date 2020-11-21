@@ -1,11 +1,10 @@
-import styles from "../styles/Home.module.css";
 import common from "../styles/Common.module.css";
 import Layout from "../components/layout";
 
-export default function Home() {
+export default function Projects() {
     return (
         <Layout>
-            <h1>Charlotte Baker Textiles</h1>
+            <h1>Projects</h1>
         </Layout>
     );
 }
