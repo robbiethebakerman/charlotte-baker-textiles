@@ -1,7 +1,7 @@
 .grid {
-    padding: 0 1rem;
+    margin: 0 1rem;
     display: grid;
-    grid-template: 1fr / 40% 57%;
+    grid-template-columns: 40% 57%;
     column-gap: 3%;
 }
 
