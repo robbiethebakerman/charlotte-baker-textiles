@@ -5,7 +5,7 @@ import Layout from "../components/layout";
 export default function About() {
     return (
         <Layout>
-            <h1 className={common.title}>About Me</h1>
+            <h1>About Me</h1>
             <div className={styles.grid}>
                 <div className={common.imageContainer}>
                     <div>

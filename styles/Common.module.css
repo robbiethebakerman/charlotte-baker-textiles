@@ -1,11 +1,10 @@
-.title {
-    font-size: 3rem;
-    text-align: center;
-}
-
 .textBody p {
     line-height: 1.5;
     text-align: justify;
+}
+
+.textBody p:first-child {
+    margin-block-start: 0;
 }
 
 .imageContainer {
