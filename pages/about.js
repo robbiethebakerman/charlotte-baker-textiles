@@ -19,22 +19,20 @@ export default function About() {
                 </div>
                 <div className={common.textBody}>
                     <p>
-                        Charlotte ewqgew ewgqq ewgweg eqwg ewqgwee qw gweg w b e
-                        req bwo weo. Ebq oo eob ewb oeqob oweb. Kewqkbwe bjkq ew
-                        bk ewjkb q ebj eqob reob e be boe bo qebeoq bro b r bor
-                        qb o rbrqe,br.qe rbuqr bo orb oqre borq bo rob.rere.bp
-                        reiqb qrepb oqrb[pqr . Oeqr ibrboire bire biuqrebirejq b
-                        reb. Qoreioreoib roiqhbrhruiqehbiuhrqoib
-                        eriobireiureioq.
+                        Charlotte Baker specialises in the preservation and
+                        conservation of textile objects, having graduated from
+                        the Centre for Textile Conservation, University of
+                        Glasgow with an MPhil in Textile Conservation (2019).
+                        After graduating Charlotte completed a year-long Textile
+                        Conservation Internship at the Bowes Museum supported by
+                        the Institute of Conservation and the Heritage Lottery
+                        Fund.
                     </p>
                     <p>
-                        Lre uibhuirqoibjreqobre.reqhurhboqre. Orqheb prebreq.
-                        Oirehqiohreoib erohoirboreqb reqobkpreqb Qerbqerbeqrb.
-                    </p>
-                    <p>
-                        Reqbojiheriub hiuerhoirejiberqoboi qerhohbhqeuirb r
-                        hbohriub rhbihreiu hbiu eriubhireu hbiuh eqriub hiuhre
-                        qiubiuqhrib iuhrqeiubhiuhqreiuboireqboerq.
+                        This website, which is currently under construction,
+                        will provide a platform to highlight some of the
+                        conservation services that will be available to
+                        institutions and private individuals.
                     </p>
                 </div>
             </div>
