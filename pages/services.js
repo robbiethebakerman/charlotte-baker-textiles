@@ -2,6 +2,7 @@ import common from "../styles/Common.module.css";
 import styles from "../styles/Services.module.css";
 import Layout from "../components/layout";
 import Card from "../components/card";
+import CardGrid from "../components/cardGrid";
 
 export default function Services() {
     const cardData = [
@@ -35,16 +36,10 @@ export default function Services() {
         },
     ];
 
-    const cards = cardData.map((item) => {
-        return (
-            <Card key={item.title} title={item.title} image={item.image}></Card>
-        );
-    });
-
     return (
         <Layout>
             <h1>Services</h1>
-            <div className={styles.grid}>{cards}</div>
+            <CardGrid cardData={cardData}></CardGrid>
         </Layout>
     );
 }
