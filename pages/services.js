@@ -1,7 +1,4 @@
-import common from "../styles/Common.module.css";
-import styles from "../styles/Services.module.css";
 import Layout from "../components/layout";
-import Card from "../components/card";
 import CardGrid from "../components/cardGrid";
 
 export default function Services() {

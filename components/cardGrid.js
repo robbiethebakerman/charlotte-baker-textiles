@@ -1,4 +1,4 @@
-import styles from "../styles/Services.module.css";
+import styles from "../styles/CardGrid.module.css";
 import Card from "../components/card";
 
 export default function CardGrid({ cardData }) {
