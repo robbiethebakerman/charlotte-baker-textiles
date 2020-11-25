@@ -10,10 +10,11 @@ export default function About() {
                 <div className={common.imageContainer}>
                     <div>
                         <img
-                            src="/CB.png"
-                            alt="Charlotte Baker Textiles logo"
+                            src="/CharlotteProfileWorking.jpg"
+                            alt="Charlotte Baker with a mounted dress"
                             className={common.image}
                         ></img>
+                        <p className={common.imageCaption}>Image blurb</p>
                     </div>
                 </div>
                 <div className={common.textBody}>
