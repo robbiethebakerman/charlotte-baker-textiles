@@ -2,7 +2,7 @@ import Layout from "../components/layout";
 import CardGrid from "../components/cardGrid";
 
 export default function Services() {
-    const cardData = [
+    const services = [
         {
             title: "Service 1",
             image: {
@@ -36,7 +36,7 @@ export default function Services() {
     return (
         <Layout>
             <h1>Services</h1>
-            <CardGrid cardData={cardData}></CardGrid>
+            <CardGrid cardData={services}></CardGrid>
         </Layout>
     );
 }
