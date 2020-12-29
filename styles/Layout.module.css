@@ -1,6 +1,12 @@
 .container {
     min-height: 100vh;
     display: flex;
+    justify-content: center;
+}
+
+.body {
+    width: 1200px;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -8,7 +14,6 @@
 
 .main {
     flex: 1;
-    max-width: 1000px;
     width: 100%;
 }
 

@@ -6,10 +6,12 @@ import styles from "../styles/Layout.module.css";
 export default function Layout({ children }) {
     return (
         <div className={styles.container}>
-            <Meta />
-            <Header />
-            <main className={styles.main}>{children}</main>
-            <Footer />
+            <div className={styles.body}>
+                <Meta />
+                <Header />
+                <main className={styles.main}>{children}</main>
+                <Footer />
+            </div>
         </div>
     );
 }
