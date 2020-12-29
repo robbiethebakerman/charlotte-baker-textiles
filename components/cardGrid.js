@@ -13,5 +13,9 @@ export default function CardGrid({ cardData }) {
         );
     });
 
-    return <div className={styles.grid}>{cards}</div>;
+    return (
+        <div className={styles.container}>
+            <div className={styles.grid}>{cards}</div>
+        </div>
+    );
 }
