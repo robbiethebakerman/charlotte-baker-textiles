@@ -11,19 +11,19 @@
     gap: 1rem;
 }
 
-@media (max-width: 1199px) {
+@media screen and (max-width: 1199px) {
     .grid {
         grid-template-columns: repeat(3, var(--grid-column-width));
     }
 }
 
-@media (max-width: 899px) {
+@media screen and (max-width: 899px) {
     .grid {
         grid-template-columns: repeat(2, var(--grid-column-width));
     }
 }
 
-@media (max-width: 599px) {
+@media screen and (max-width: 599px) {
     .grid {
         grid-template-columns: var(--grid-column-width);
     }
