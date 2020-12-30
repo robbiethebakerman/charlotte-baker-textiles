@@ -11,27 +11,6 @@ export default function Collection() {
                 alt: "Charlotte Baker Textiles logo",
             },
         },
-        {
-            title: "Paper",
-            image: {
-                src: "/CB.png",
-                alt: "Charlotte Baker Textiles logo",
-            },
-        },
-        {
-            title: "Accessories",
-            image: {
-                src: "/CB.png",
-                alt: "Charlotte Baker Textiles logo",
-            },
-        },
-        {
-            title: "Other",
-            image: {
-                src: "/CB.png",
-                alt: "Charlotte Baker Textiles logo",
-            },
-        },
     ];
 
     return (

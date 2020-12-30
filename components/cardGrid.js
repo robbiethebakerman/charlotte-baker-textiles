@@ -13,9 +13,26 @@ export default function CardGrid({ cardData }) {
         );
     });
 
+    let gridClass = styles.grid4column;
+
+    switch (cards.length) {
+        case 1:
+            gridClass = styles.grid1column;
+            break;
+        case 2:
+            gridClass = styles.grid2column;
+            break;
+        case 3:
+            gridClass = styles.grid3column;
+            break;
+        default:
+            gridClass = styles.grid4column;
+            break;
+    }
+
     return (
         <div className={styles.container}>
-            <div className={styles.grid}>{cards}</div>
+            <div className={gridClass}>{cards}</div>
         </div>
     );
 }

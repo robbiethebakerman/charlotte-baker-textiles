@@ -7,24 +7,46 @@
 .grid {
     margin: 0 1rem;
     display: grid;
-    grid-template-columns: repeat(4, var(--grid-column-width));
     gap: 1rem;
 }
 
+.grid1column {
+    composes: grid;
+    grid-template-columns: var(--grid-column-width);
+}
+
+.grid2column {
+    composes: grid;
+    grid-template-columns: repeat(2, var(--grid-column-width));
+}
+
+.grid3column {
+    composes: grid;
+    grid-template-columns: repeat(3, var(--grid-column-width));
+}
+
+.grid4column {
+    composes: grid;
+    grid-template-columns: repeat(4, var(--grid-column-width));
+}
+
 @media screen and (max-width: 1199px) {
-    .grid {
+    .grid4column {
         grid-template-columns: repeat(3, var(--grid-column-width));
     }
 }
 
 @media screen and (max-width: 899px) {
-    .grid {
+    .grid3column,
+    .grid4column {
         grid-template-columns: repeat(2, var(--grid-column-width));
     }
 }
 
 @media screen and (max-width: 599px) {
-    .grid {
+    .grid2column,
+    .grid3column,
+    .grid4column {
         grid-template-columns: var(--grid-column-width);
     }
 }

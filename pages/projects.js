@@ -25,13 +25,6 @@ export default function Projects() {
                 alt: "Charlotte Baker Textiles logo",
             },
         },
-        {
-            title: "Project 4",
-            image: {
-                src: "/CB.png",
-                alt: "Charlotte Baker Textiles logo",
-            },
-        },
     ];
 
     return (
