@@ -32,7 +32,8 @@ export default function Media({ posts }) {
 
 export async function getStaticProps() {
     const res = await fetch(
-        "https://graph.instagram.com/me/media?fields=id,caption,media_type,media_url,permalink,thumbnail_url,username,timestamp&access_token=IGQVJXdzlYSnp4aEZAvVVNleEtTVU1aZA0xxcGFzSEp1YWc4SG54LTVyNF9BQW9wc09xa1J4U3Bsb3gwYXc4blo5eW9kYlpGLVRhWUlVZATNLLXNQT3I4cEhBeTZAnZA2pUbGtPRHZAaREthOGdBNXIxYm5TeQZDZD"
+        "https://graph.instagram.com/me/media?fields=id,caption,media_type,media_url,permalink,thumbnail_url,username,timestamp&access_token=" +
+            process.env.IG_ACCESS_TOKEN
     );
     const posts = await res.json();
 
