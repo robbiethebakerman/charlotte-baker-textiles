@@ -1,14 +1,3 @@
-.igLink {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.igLink img {
-    width: 12rem;
-}
-
 .link {
     text-decoration: underline;
 }
