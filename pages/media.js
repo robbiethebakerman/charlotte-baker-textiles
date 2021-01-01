@@ -1,4 +1,3 @@
-import styles from "../styles/Media.module.css";
 import Layout from "../components/layout";
 import CardGrid from "../components/cardGrid";
 import IgFeed from "../components/igFeed";
