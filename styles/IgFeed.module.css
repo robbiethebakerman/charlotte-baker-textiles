@@ -2,9 +2,15 @@
 }
 
 .igLinkContainer {
+    display: flex;
+    width: 100%;
 }
 
 .igLink {
+}
+
+.igLink img {
+    height: 12rem;
 }
 
 .link {
