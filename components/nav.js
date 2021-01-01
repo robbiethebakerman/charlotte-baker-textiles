@@ -40,9 +40,6 @@ export default function Nav() {
                     <Link href="/media">Media</Link>
                 </li>
                 <li>
-                    <Link href="/contact">Contact</Link>
-                </li>
-                <li>
                     <Link href="/collection">Collection</Link>
                 </li>
             </ul>

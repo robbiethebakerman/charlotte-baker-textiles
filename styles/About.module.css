@@ -5,6 +5,10 @@
     column-gap: 3%;
 }
 
+.contactText {
+    text-align: center;
+}
+
 @media screen and (max-width: 599px) {
     .grid {
         grid-template-columns: 100%;

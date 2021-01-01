@@ -37,6 +37,13 @@ export default function About({ igPosts }) {
                     </p>
                 </div>
             </div>
+            <h2>Contact</h2>
+            <p className={styles.contactText}>
+                EMAIL: charlottebakerconservation@gmail.com
+            </p>
+            <p className={styles.contactText}>
+                Please feel free to contact me for enquiries.
+            </p>
             <IgFeed igPosts={igPosts} />
         </Layout>
     );
