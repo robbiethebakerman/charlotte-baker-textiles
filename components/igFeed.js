@@ -11,7 +11,7 @@ export default function IgFeed({ igPosts }) {
                 rel="noopener noreferrer"
             >
                 <img
-                    src={item.media_url}
+                    src={item.thumbnail_url || item.media_url}
                     alt="Instagram post from Charlotte Baker Textiles"
                 ></img>
             </a>
