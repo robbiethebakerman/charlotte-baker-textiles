@@ -26,7 +26,6 @@ export default function IgFeed({ igPosts }) {
     return (
         <div className={styles.container}>
             <h2>
-                {/* instagram{" "} */}
                 <a
                     className={styles.link}
                     href="https://www.instagram.com/charlottebakertextiles/"
