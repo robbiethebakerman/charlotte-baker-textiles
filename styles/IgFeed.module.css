@@ -3,14 +3,23 @@
 
 .igLinkContainer {
     display: flex;
-    width: 100%;
+    justify-content: space-between;
+    background-color: lightgray;
+    padding: 1rem;
+    margin: 0 1rem;
+    /* display: grid; */
+    /* grid-template-columns: repeat(5, 18%); */
+    /* grid-auto-flow: column;
+    grid-auto-columns: fit-content;*/
+    column-gap: 2.5%;
 }
 
 .igLink {
 }
 
 .igLink img {
-    height: 12rem;
+    max-height: 10rem;
+    /* height: 100%; */
 }
 
 .link {
