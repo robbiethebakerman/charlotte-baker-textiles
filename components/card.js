@@ -1,7 +1,14 @@
 import styles from "../styles/Card.module.css";
+import common from "../styles/Common.module.css";
 
 export default function Card({ title, image, link, source, mediaType, date }) {
-    const img = <img src={image.src} alt={image.alt}></img>;
+    const img = (
+        <div className={common.imageContainer}>
+            <div>
+                <img src={image.src} alt={image.alt}></img>
+            </div>
+        </div>
+    );
 
     if (mediaType) title = title + " (" + mediaType + ")";
 

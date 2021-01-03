@@ -8,7 +8,14 @@
 }
 
 .imageContainer {
+    height: 100%;
     display: flex;
+    justify-content: center;
+}
+
+.imageContainer div {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
