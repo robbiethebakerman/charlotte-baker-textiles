@@ -1,7 +1,7 @@
 import styles from "../styles/CardGrid.module.css";
 import Card from "../components/card";
 
-export default function CardGrid({ cardData }) {
+export default function CardGrid({ cardData, columns }) {
     const cards = cardData.map((item) => {
         return (
             <Card
@@ -18,7 +18,9 @@ export default function CardGrid({ cardData }) {
 
     let gridClass = styles.grid4column;
 
-    switch (cards.length) {
+    columns = columns || cards.length;
+
+    switch (columns) {
         case 1:
             gridClass = styles.grid1column;
             break;
