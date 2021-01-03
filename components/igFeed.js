@@ -1,5 +1,5 @@
 import styles from "../styles/IgFeed.module.css";
-import common from "../styles/Common.module.css";
+import FlexImage from "./flexImage";
 
 export default function IgFeed({ igPosts }) {
     const igLinks = igPosts.data.slice(0, 5).map((item) => {
@@ -11,14 +11,10 @@ export default function IgFeed({ igPosts }) {
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                <div className={common.imageContainer}>
-                    <div>
-                        <img
-                            src={item.thumbnail_url || item.media_url}
-                            alt="Instagram post from Charlotte Baker Textiles"
-                        ></img>
-                    </div>
-                </div>
+                <FlexImage
+                    src={item.thumbnail_url || item.media_url}
+                    alt="Instagram post from Charlotte Baker Textiles"
+                />
             </a>
         );
     });

@@ -6,24 +6,3 @@
 .textBody p:first-child {
     margin-block-start: 0;
 }
-
-.imageContainer {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.imageContainer div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.imageContainer div img {
-    max-width: 100%;
-}
-
-.imageCaption {
-    margin-block-start: 0;
-    margin-block-end: 0;
-}

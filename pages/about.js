@@ -2,22 +2,18 @@ import styles from "../styles/About.module.css";
 import common from "../styles/Common.module.css";
 import Layout from "../components/layout";
 import IgFeed from "../components/igFeed";
+import FlexImage from "../components/flexImage";
 
 export default function About({ igPosts }) {
     return (
         <Layout>
             <h1>About Me</h1>
             <div className={styles.grid}>
-                <div className={common.imageContainer}>
-                    <div>
-                        <img
-                            src="/CharlotteProfileWorking.jpg"
-                            alt="Charlotte Baker with a mounted dress"
-                            className={common.image}
-                        ></img>
-                        <p className={common.imageCaption}>Image blurb</p>
-                    </div>
-                </div>
+                <FlexImage
+                    src="/CharlotteProfileWorking.jpg"
+                    alt="Charlotte Baker with a mounted dress"
+                    caption="Image blurb"
+                />
                 <div className={common.textBody}>
                     <p>
                         Charlotte Baker specialises in the preservation and
