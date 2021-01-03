@@ -9,6 +9,9 @@ export default function CardGrid({ cardData }) {
                 title={item.title}
                 image={item.image}
                 link={item.link}
+                source={item.source}
+                mediaType={item.mediaType}
+                date={item.date}
             ></Card>
         );
     });
