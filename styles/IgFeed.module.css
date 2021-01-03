@@ -4,7 +4,7 @@
 .igLinkContainer {
     display: flex;
     justify-content: space-between;
-    background-color: lightgray;
+    background-color: var(--secondary-background-color);
     padding: 1rem;
     margin: 0 1rem;
     column-gap: 2.5%;
@@ -19,4 +19,16 @@
 
 .link {
     text-decoration: underline;
+}
+
+@media screen and (max-width: 899px) {
+    .igLink:last-child {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .igLink:nth-last-child(2) {
+        display: none;
+    }
 }

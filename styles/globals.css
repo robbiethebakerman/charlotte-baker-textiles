@@ -37,5 +37,6 @@ button {
 :root {
     --main-highlight-color: #e2f0d9;
     --main-font-color: black;
+    --secondary-background-color: #edebe0;
     --body-width: 1200px;
 }
