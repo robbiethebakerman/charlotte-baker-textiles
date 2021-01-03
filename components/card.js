@@ -7,10 +7,10 @@ export default function Card({ title, image, link, source, mediaType, date }) {
     if (mediaType) title = title + " (" + mediaType + ")";
 
     const text = (
-        <div>
+        <div className={styles.text}>
             <h5>{title}</h5>
-            <h6>{source}</h6>
-            <h6>{date}</h6>
+            <h6 className={styles.source}>{source}</h6>
+            <h6 className={styles.date}>{date}</h6>
         </div>
     );
 

@@ -3,8 +3,32 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    background-color: var(--secondary-background-color);
 }
 
 .container img {
-    max-width: 280px;
+    margin: 0.5rem;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text h5 {
+    margin: 1rem 0;
+}
+
+.text h6 {
+    margin: 0.5rem 0;
+}
+
+.source {
+    color: var(--secondary-font-color);
+}
+
+.date {
+    color: var(--tertiary-font-color);
 }
