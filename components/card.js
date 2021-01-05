@@ -1,8 +1,22 @@
 import styles from "../styles/Card.module.css";
 import FlexImage from "./flexImage";
 
-export default function Card({ title, image, link, source, mediaType, date }) {
-    const img = <FlexImage src={image.src} alt={image.alt} />;
+export default function Card({
+    title,
+    image,
+    link,
+    source,
+    mediaType,
+    date,
+    imageContainerHeight,
+}) {
+    const img = (
+        <FlexImage
+            src={image.src}
+            alt={image.alt}
+            containerHeight={imageContainerHeight}
+        />
+    );
 
     if (mediaType) title = title + " (" + mediaType + ")";
 

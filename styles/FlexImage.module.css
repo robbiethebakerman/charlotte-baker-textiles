@@ -7,7 +7,6 @@
 .imageContainer div {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
 }
 
 .imageContainer div img {

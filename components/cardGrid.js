@@ -1,7 +1,7 @@
 import styles from "../styles/CardGrid.module.css";
 import Card from "../components/card";
 
-export default function CardGrid({ cardData, columns }) {
+export default function CardGrid({ cardData, columns, imageContainerHeight }) {
     const cards = cardData.map((item) => {
         return (
             <Card
@@ -12,6 +12,7 @@ export default function CardGrid({ cardData, columns }) {
                 source={item.source}
                 mediaType={item.mediaType}
                 date={item.date}
+                imageContainerHeight={imageContainerHeight}
             ></Card>
         );
     });

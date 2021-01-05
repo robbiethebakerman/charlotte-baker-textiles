@@ -1,8 +1,6 @@
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
     background-color: var(--secondary-background-color);
 }
 
@@ -15,14 +13,15 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    height: 100%;
 }
 
 .text h5 {
-    margin: 1rem 0;
+    margin: 1rem 0.5rem;
 }
 
 .text h6 {
-    margin: 0.5rem 0;
+    margin: 0.5rem 0.5rem;
 }
 
 .source {
