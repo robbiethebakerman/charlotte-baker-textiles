@@ -84,7 +84,7 @@ export default function Media({ igPosts }) {
                 "Wimbledon Costume graduates lend their skills to The John Bright Historic Costume Collection project",
             mediaType: "Article",
             image: {
-                src: "/ualLogo.png",
+                src: "/ualWimbledonLogo.png",
                 alt: "Wimbledon College of Arts, University of the Arts London",
             },
             link: {
