@@ -24,7 +24,7 @@ export default function Media({ igPosts }) {
                 "Displaying Textiles: Mounting Historic Dress from the Tullie House Museum & Art Gallery Collection",
             mediaType: "Article",
             image: {
-                src: "/BowesLogo.jpg",
+                src: "/BowesLogo.png",
                 alt: "The Bowes Museum",
             },
             link: {
@@ -38,7 +38,7 @@ export default function Media({ igPosts }) {
             title: "Meet Charlotte Cameron #BowesStaff",
             mediaType: "Article",
             image: {
-                src: "/BowesLogo.jpg",
+                src: "/BowesLogo.png",
                 alt: "The Bowes Museum",
             },
             link: {
