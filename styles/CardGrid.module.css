@@ -1,7 +1,8 @@
 .container {
     display: flex;
     justify-content: center;
-    --grid-column-width: calc((var(--body-width) - 5rem) / 4);
+    --grid-column-width: calc((var(--body-width) - 13rem) / 12);
+    --grid-min-span: 3;
 }
 
 .grid {
@@ -10,36 +11,59 @@
     gap: 1rem;
 }
 
+.grid a,
+.grid div {
+    grid-column-end: span var(--grid-min-span);
+}
+
 .grid1column {
     composes: grid;
-    grid-template-columns: var(--grid-column-width);
+    grid-template-columns: repeat(
+        var(--grid-min-span),
+        var(--grid-column-width)
+    );
 }
 
 .grid2column {
     composes: grid;
-    grid-template-columns: repeat(2, var(--grid-column-width));
+    grid-template-columns: repeat(
+        calc(var(--grid-min-span) * 2),
+        var(--grid-column-width)
+    );
 }
 
 .grid3column {
     composes: grid;
-    grid-template-columns: repeat(3, var(--grid-column-width));
+    grid-template-columns: repeat(
+        calc(var(--grid-min-span) * 3),
+        var(--grid-column-width)
+    );
 }
 
 .grid4column {
     composes: grid;
-    grid-template-columns: repeat(4, var(--grid-column-width));
+    grid-template-columns: repeat(
+        calc(var(--grid-min-span) * 4),
+        var(--grid-column-width)
+    );
 }
 
 @media screen and (max-width: 1199px) {
     .grid4column {
-        grid-template-columns: repeat(3, var(--grid-column-width));
+        grid-template-columns: repeat(
+            calc(var(--grid-min-span) * 3),
+            var(--grid-column-width)
+        );
     }
 }
 
 @media screen and (max-width: 899px) {
     .grid3column,
     .grid4column {
-        grid-template-columns: repeat(2, var(--grid-column-width));
+        grid-template-columns: repeat(
+            calc(var(--grid-min-span) * 2),
+            var(--grid-column-width)
+        );
     }
 }
 
@@ -47,6 +71,9 @@
     .grid2column,
     .grid3column,
     .grid4column {
-        grid-template-columns: var(--grid-column-width);
+        grid-template-columns: repeat(
+            var(--grid-min-span),
+            var(--grid-column-width)
+        );
     }
 }
