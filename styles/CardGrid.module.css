@@ -1,8 +1,8 @@
 .container {
     display: flex;
     justify-content: center;
-    --grid-column-width: calc((var(--body-width) - 13rem) / 12);
-    --grid-min-span: 3;
+    --grid-column-width: calc((var(--body-width) - 9rem) / 8);
+    --grid-min-span: 2;
 }
 
 .grid {
@@ -48,7 +48,7 @@
     );
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 900px) and (max-width: 1199px) {
     .grid4column {
         grid-template-columns: repeat(
             calc(var(--grid-min-span) * 3),
@@ -57,13 +57,18 @@
     }
 }
 
-@media screen and (max-width: 899px) {
+@media screen and (min-width: 600px) and (max-width: 899px) {
     .grid3column,
     .grid4column {
         grid-template-columns: repeat(
             calc(var(--grid-min-span) * 2),
             var(--grid-column-width)
         );
+    }
+
+    .grid3column a:last-child,
+    .grid3column div:last-child {
+        grid-column-start: 2;
     }
 }
 
