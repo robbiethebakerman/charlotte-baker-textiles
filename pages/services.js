@@ -32,6 +32,27 @@ export default function Services({ igPosts }) {
                 alt: "Charlotte Baker Textiles logo",
             },
         },
+        {
+            title: "Service 4",
+            image: {
+                src: "/CB.png",
+                alt: "Charlotte Baker Textiles logo",
+            },
+        },
+        {
+            title: "Service 2",
+            image: {
+                src: "/CB.png",
+                alt: "Charlotte Baker Textiles logo",
+            },
+        },
+        {
+            title: "Service 3",
+            image: {
+                src: "/CB.png",
+                alt: "Charlotte Baker Textiles logo",
+            },
+        },
     ];
 
     return (
