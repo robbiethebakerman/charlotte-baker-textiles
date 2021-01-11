@@ -6,24 +6,25 @@ import IgFeed from "../components/igFeed";
 export default function Projects({ igPosts }) {
     const projects = [
         {
-            title: "Project 1",
+            title: "ICON Textile Conservation internship at the Bowes Museum",
             image: {
-                src: "/CB.png",
-                alt: "Charlotte Baker Textiles logo",
+                src: "/Projects_IconIntern.jpg",
+                alt: "Charlotte Baker performing a conservation clean",
             },
         },
         {
-            title: "Project 2",
+            title:
+                "MPhil Textile Conservation dissertation on museum shoe storage",
             image: {
-                src: "/CB.png",
-                alt: "Charlotte Baker Textiles logo",
+                src: "/Projects_ShoeStorageDissertation.jpg",
+                alt: "Bespoke external shoe storage mount",
             },
         },
         {
-            title: "Project 3",
+            title: "John Bright Costume Mounting",
             image: {
-                src: "/CB.png",
-                alt: "Charlotte Baker Textiles logo",
+                src: "https://via.placeholder.com/264x335",
+                alt: "John Bright Costume Mounting",
             },
         },
     ];
@@ -31,7 +32,7 @@ export default function Projects({ igPosts }) {
     return (
         <Layout>
             <h1>Projects</h1>
-            <CardGrid cardData={projects} />
+            <CardGrid cardData={projects} imageContainerHeight={"351px"} />
             <IgFeed igPosts={igPosts} />
         </Layout>
     );

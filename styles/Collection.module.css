@@ -1,4 +1,4 @@
 .textBody {
     composes: textBody from "./Common.module.css";
-    padding: 0 1rem;
+    padding: 1rem;
 }
