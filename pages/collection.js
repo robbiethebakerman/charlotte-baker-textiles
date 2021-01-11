@@ -5,24 +5,10 @@ import styles from "../styles/Collection.module.css";
 export default function Collection() {
     const collections = [
         {
-            title: "Textiles",
-            image: {
-                src: "/CB.png",
-                alt: "Charlotte Baker Textiles logo",
-            },
-        },
-        {
             title: "Paper",
             image: {
-                src: "/CB.png",
-                alt: "Charlotte Baker Textiles logo",
-            },
-        },
-        {
-            title: "Accessories",
-            image: {
-                src: "/CB.png",
-                alt: "Charlotte Baker Textiles logo",
+                src: "/Collection_Paper.jpg",
+                alt: "",
             },
         },
     ];
@@ -30,7 +16,7 @@ export default function Collection() {
     return (
         <Layout>
             <h1>Collection</h1>
-            <CardGrid cardData={collections} />
+            <CardGrid cardData={collections} imageContainerHeight={"218px"} />
             <div className={styles.textBody}>
                 <p>
                     A someone personally interested, I have a collection of

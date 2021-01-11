@@ -23,8 +23,8 @@ export default function Card({
     const text = (
         <div className={styles.text}>
             <h5>{title}</h5>
-            <h6 className={styles.source}>{source}</h6>
-            <h6 className={styles.date}>{date}</h6>
+            <h6 className={source ? styles.source : styles.hide}>{source}</h6>
+            <h6 className={date ? styles.date : styles.hide}>{date}</h6>
         </div>
     );
 

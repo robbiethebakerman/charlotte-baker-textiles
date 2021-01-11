@@ -17,17 +17,17 @@
 }
 
 .text h5 {
-    margin: 1rem 0.5rem;
+    margin: 0.5rem 0.5rem 1rem 0.5rem;
 }
 
 .text h6 {
     margin: 0.5rem 0.5rem;
 }
 
-.source {
-    color: var(--secondary-font-color);
+.date {
+    font-style: italic;
 }
 
-.date {
-    color: var(--tertiary-font-color);
+.hide {
+    display: none;
 }
