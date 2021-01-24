@@ -1,7 +1,0 @@
-.textBody {
-    composes: textBody from "./Common.module.css";
-}
-
-.textBody p {
-    text-align: center;
-}

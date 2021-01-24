@@ -1,6 +1,7 @@
 import Layout from "../components/layout";
 import CardGrid from "../components/cardGrid";
 import IgFeed from "../components/igFeed";
+import common from "../styles/Common.module.css";
 
 export default function Services({ igPosts }) {
     const services = [
@@ -37,6 +38,9 @@ export default function Services({ igPosts }) {
     return (
         <Layout>
             <h1>Services</h1>
+            <div className={common.textBodyCentred}>
+                <p>This page is currently under construction.</p>
+            </div>
             <CardGrid cardData={services}></CardGrid>
             <IgFeed igPosts={igPosts} />
         </Layout>

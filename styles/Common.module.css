@@ -6,3 +6,11 @@
 .textBody p:first-child {
     margin-block-start: 0;
 }
+
+.textBodyCentred {
+    composes: textBody;
+}
+
+.textBodyCentred p {
+    text-align: center;
+}

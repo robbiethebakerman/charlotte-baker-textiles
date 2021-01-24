@@ -1,6 +1,5 @@
 import Layout from "../components/layout";
 import CardGrid from "../components/cardGrid";
-import styles from "../styles/Collection.module.css";
 import common from "../styles/Common.module.css";
 
 export default function Collection() {
@@ -31,7 +30,7 @@ export default function Collection() {
     return (
         <Layout>
             <h1>Collection</h1>
-            <div className={styles.textBody}>
+            <div className={common.textBodyCentred}>
                 <p>This page is currently under construction.</p>
             </div>
             <CardGrid cardData={collections} imageContainerHeight={"215px"} />
