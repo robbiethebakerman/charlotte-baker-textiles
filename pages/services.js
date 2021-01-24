@@ -5,30 +5,30 @@ import IgFeed from "../components/igFeed";
 export default function Services({ igPosts }) {
     const services = [
         {
-            title: "Service 1",
+            title: "Bespoke Storage",
             image: {
-                src: "/CB.png",
+                src: "https://via.placeholder.com/264x264",
                 alt: "Charlotte Baker Textiles logo",
             },
         },
         {
-            title: "Service 2",
+            title: "Display and Mounting",
             image: {
-                src: "/CB.png",
+                src: "https://via.placeholder.com/264x264",
                 alt: "Charlotte Baker Textiles logo",
             },
         },
         {
-            title: "Service 3",
+            title: "Collection Care",
             image: {
-                src: "/CB.png",
+                src: "https://via.placeholder.com/264x264",
                 alt: "Charlotte Baker Textiles logo",
             },
         },
         {
-            title: "Service 4",
+            title: "Freelance Museum Work",
             image: {
-                src: "/CB.png",
+                src: "https://via.placeholder.com/264x264",
                 alt: "Charlotte Baker Textiles logo",
             },
         },
