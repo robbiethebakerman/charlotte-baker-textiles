@@ -2,3 +2,6 @@
     composes: textBody from "./Common.module.css";
     padding: 1rem;
 }
+.textBody p {
+    text-align: center;
+}

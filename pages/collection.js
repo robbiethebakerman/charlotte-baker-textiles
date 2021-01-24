@@ -1,6 +1,7 @@
 import Layout from "../components/layout";
 import CardGrid from "../components/cardGrid";
 import styles from "../styles/Collection.module.css";
+import common from "../styles/Common.module.css";
 
 export default function Collection() {
     const collections = [
@@ -17,17 +18,8 @@ export default function Collection() {
         <Layout>
             <h1>Collection</h1>
             <CardGrid cardData={collections} imageContainerHeight={"218px"} />
-            <div className={styles.textBody}>
-                <p>
-                    A someone personally interested, I have a collection of
-                    objects related to fashion history and sewing paraphernalia.
-                </p>
-                <p>
-                    Eergqerh eh eqh qhlekwq hek heqwk wehq kweq hewqh. E rqehe
-                    heq ewh kl ewqh ek hqejwhjqwe hweh qew h kew khq ewh wqh, eh
-                    keqh khe ewh. T erhqeqrher heqrk rqeqrek rebk kre njeqrk jh
-                    hr eq breq bb.
-                </p>
+            <div className={`${styles.textBody}`}>
+                <p>This page is currently under construction.</p>
             </div>
         </Layout>
     );
