@@ -23,7 +23,7 @@ export default function Projects({ igPosts }) {
         {
             title: "John Bright Costume Mounting",
             image: {
-                src: "https://via.placeholder.com/264x335",
+                src: "/Projects_JohnBright1.jpg",
                 alt: "John Bright Costume Mounting",
             },
         },
