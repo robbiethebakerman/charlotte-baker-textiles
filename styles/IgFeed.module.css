@@ -21,6 +21,12 @@
     text-decoration: underline;
 }
 
+.link:hover,
+.link:focus,
+.link:active {
+    background-color: var(--main-highlight-color);
+}
+
 @media screen and (max-width: 899px) {
     .igLink:last-child {
         display: none;
