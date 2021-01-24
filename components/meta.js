@@ -4,7 +4,7 @@ export default function Meta() {
     return (
         <Head>
             <title>Charlotte Baker Textiles</title>
-            <link rel="icon" href="" />
+            <link rel="icon" href="CB.png" />
         </Head>
     );
 }
