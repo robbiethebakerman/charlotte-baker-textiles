@@ -16,8 +16,12 @@
     height: 100%;
 }
 
-.text h5 {
+.normalHeading {
     margin: 0.5rem 0.5rem 1rem 0.5rem;
+}
+
+.denseHeading {
+    margin: 0.5rem 0.5rem 0 0.5rem;
 }
 
 .text h6 {
@@ -30,4 +34,8 @@
 
 .hide {
     display: none;
+}
+
+.subTitle {
+    margin: 0rem 0.5rem 1rem 0.5rem;
 }

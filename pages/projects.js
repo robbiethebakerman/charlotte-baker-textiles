@@ -21,7 +21,8 @@ export default function Projects({ igPosts }) {
             },
         },
         {
-            title: "John Bright Costume Mounting",
+            title: "The John Bright Collection",
+            subTitle: "Costume Mounting",
             image: {
                 src: "/Projects_JohnBright1.jpg",
                 alt: "John Bright Costume Mounting",

@@ -7,6 +7,7 @@ export default function CardGrid({ cardData, imageContainerHeight }) {
             <Card
                 key={item.title}
                 title={item.title}
+                subTitle={item.subTitle}
                 image={item.image}
                 link={item.link}
                 source={item.source}

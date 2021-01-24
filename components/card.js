@@ -3,6 +3,7 @@ import FlexImage from "./flexImage";
 
 export default function Card({
     title,
+    subTitle,
     image,
     link,
     source,
@@ -22,7 +23,16 @@ export default function Card({
 
     const text = (
         <div className={styles.text}>
-            <h5>{title}</h5>
+            <h5
+                className={
+                    subTitle ? styles.denseHeading : styles.normalHeading
+                }
+            >
+                {title}
+            </h5>
+            <h5 className={subTitle ? styles.subTitle : styles.hide}>
+                {subTitle}
+            </h5>
             <h6 className={source ? styles.source : styles.hide}>{source}</h6>
             <h6 className={date ? styles.date : styles.hide}>{date}</h6>
         </div>
