@@ -18,7 +18,7 @@ export default function Collection() {
         <Layout>
             <h1>Collection</h1>
             <CardGrid cardData={collections} imageContainerHeight={"218px"} />
-            <div className={`${styles.textBody}`}>
+            <div className={styles.textBody}>
                 <p>This page is currently under construction.</p>
             </div>
         </Layout>
