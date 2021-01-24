@@ -3,7 +3,7 @@ import styles from "../styles/Footer.module.css";
 export default function Footer() {
     return (
         <footer className={styles.footer}>
-            <p>Copyright © 2020 Charlotte Baker</p>
+            <p>Copyright © 2021 Charlotte Baker</p>
             <a
                 href="https://www.instagram.com/charlottebakertextiles/"
                 target="_blank"
