@@ -19,23 +19,8 @@ export default function CardGrid({ cardData, imageContainerHeight }) {
 
     const gridClass = GetGridClass();
 
-    // instead of these, need to have multiple classes,
-    // and add classes based on remainder from % 4, % 3
-    // can add multiple classes in CSS modules as follows:
-    // className={`${styles.description} ${styles.yellow}`}
     function GetGridClass() {
-        switch (cards.length) {
-            case 1:
-                return styles.grid1column;
-            case 2:
-                return styles.grid2column;
-            case 3:
-                return styles.grid3column;
-            default:
-                break;
-        }
-
-        let gridClass = `${styles.grid4column}`;
+        let gridClass = `${styles.grid}`;
 
         switch (cards.length % 4) {
             case 1:
@@ -65,8 +50,8 @@ export default function CardGrid({ cardData, imageContainerHeight }) {
                 break;
         }
 
-        if (cards.length % 2 === 1) gridClass += ` ${styles.mod2r1}`;
-        else gridClass += ` ${styles.mod2r0}`;
+        if (cards.length % 2 === 0) gridClass += ` ${styles.mod2r0}`;
+        else gridClass += ` ${styles.mod2r1}`;
 
         return gridClass;
     }
