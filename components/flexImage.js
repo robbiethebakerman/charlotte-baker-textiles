@@ -4,7 +4,7 @@ export default function FlexImage({ src, alt, caption, containerHeight }) {
     return (
         <div
             className={styles.imageContainer}
-            style={{ height: containerHeight }}
+            style={{ height: containerHeight, minHeight: containerHeight }}
         >
             <div>
                 <img src={src} alt={alt}></img>
