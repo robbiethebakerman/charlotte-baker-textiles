@@ -2,8 +2,6 @@
     padding-top: 1rem;
     width: 100%;
     display: flex;
-    /* flex-direction: column; */
-    /* justify-content: center; */
     justify-content: space-between;
     align-items: center;
 }
@@ -18,9 +16,9 @@
 
 .titleBar h1 {
     font-size: 1rem;
-    /* min-width: 141px; */
 }
 
 .logo {
+    composes: imgOverride from "./Common.module.css";
     height: 4rem;
 }

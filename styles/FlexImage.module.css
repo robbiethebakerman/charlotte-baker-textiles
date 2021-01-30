@@ -16,4 +16,5 @@
 .imageCaption {
     margin-block-start: 0;
     margin-block-end: 0;
+    padding-top: 0.5rem;
 }

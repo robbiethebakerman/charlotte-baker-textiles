@@ -145,9 +145,11 @@ sup {
  * Remove the border on images inside links in IE 10.
  */
 
-img {
+/* Commented out below so img in globals can be given border */
+
+/* img {
     border-style: none;
-}
+} */
 
 /* Forms
    ========================================================================== */

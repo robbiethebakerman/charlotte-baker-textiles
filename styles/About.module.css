@@ -15,8 +15,8 @@
 .grid {
     margin: 0 1rem;
     display: grid;
-    grid-template-columns: 40% 57%;
-    column-gap: 3%;
+    grid-template-columns: 40% 54%;
+    column-gap: 6%;
 }
 
 .contactText {

@@ -35,6 +35,11 @@ button {
     background-color: transparent;
 }
 
+img {
+    border: #d9d9d9 solid 1px;
+    padding: 10px;
+}
+
 /* custom properties */
 
 :root {
