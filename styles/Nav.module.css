@@ -20,13 +20,13 @@
 .list li a:focus,
 .list li a:active {
     text-decoration: underline;
-    background-color: var(--main-highlight-color);
+    background-color: var(--highlight-color-1);
 }
 
 .hamburgerSlice {
     width: 2rem;
     height: 2px;
-    background-color: var(--main-font-color);
+    background-color: var(--font-color-1);
     margin: 0.4rem 0;
 }
 
@@ -62,11 +62,11 @@
         width: 100%;
         font-size: 1.2rem;
         padding: 0.4rem;
-        border: 1px solid var(--main-font-color);
+        border: 1px solid var(--font-color-1);
         border-bottom: none;
     }
 
     .listResponsive:last-child {
-        border-bottom: 1px solid var(--main-font-color);
+        border-bottom: 1px solid var(--font-color-1);
     }
 }

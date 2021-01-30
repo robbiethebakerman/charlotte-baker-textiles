@@ -1,7 +1,7 @@
 .igLinkContainer {
     display: flex;
     justify-content: space-between;
-    background-color: var(--secondary-background-color);
+    background-color: var(--accent-grey-1);
     padding: 1rem;
     margin: 0 1rem;
     column-gap: 2.5%;
@@ -18,7 +18,7 @@
 .link:hover,
 .link:focus,
 .link:active {
-    background-color: var(--main-highlight-color);
+    background-color: var(--highlight-color-1);
 }
 
 @media screen and (max-width: 899px) {

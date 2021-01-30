@@ -5,7 +5,7 @@
 
 .container a img {
     margin: 8px;
-    border: 1px solid #e6e6e6;
+    border: 1px solid var(--accent-grey-2);
 }
 
 .text {

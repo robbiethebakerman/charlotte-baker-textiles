@@ -7,7 +7,7 @@ body {
     font-family: europa, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
         Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
         sans-serif;
-    color: var(--main-font-color);
+    color: var(--font-color-1);
 }
 
 a {
@@ -37,10 +37,20 @@ button {
 /* custom properties */
 
 :root {
-    --main-highlight-color: #e2f0d9;
-    --secondary-font-color: #2f4858;
-    --tertiary-font-color: #658a8c;
-    --main-font-color: #333333;
-    --secondary-background-color: #f1ebdf;
+    /* font colours */
+
+    --font-color-1: #333333;
+    --font-color-2: #2f4858;
+    --font-color-3: #658a8c;
+
+    /* colours */
+
+    --accent-grey-1: #f2f2f2;
+    --accent-grey-2: #e6e6e6;
+
+    --highlight-color-1: #e2f0d9;
+
+    /* spacing and layout */
+
     --body-width: 1200px;
 }
