@@ -7,21 +7,21 @@ export default function Collection() {
         {
             title: "Textiles",
             image: {
-                src: "https://via.placeholder.com/264x199",
+                src: "https://via.placeholder.com/264x234",
                 alt: "",
             },
         },
         {
             title: "Paper",
             image: {
-                src: "/Collection_Paper.jpg",
+                src: "https://via.placeholder.com/264x234",
                 alt: "",
             },
         },
         {
             title: "Accessories",
             image: {
-                src: "https://via.placeholder.com/264x199",
+                src: "/Collection_Accessories.jpg",
                 alt: "",
             },
         },
@@ -33,7 +33,7 @@ export default function Collection() {
             <div className={common.textBodyCentred}>
                 <p>This page is currently under construction.</p>
             </div>
-            <CardGrid cardData={collections} imageContainerHeight={"215px"} />
+            <CardGrid cardData={collections} imageContainerHeight={"250px"} />
         </Layout>
     );
 }
