@@ -40,15 +40,16 @@ export default function Card({
 
     if (link) {
         return (
-            <a
-                className={styles.container}
-                href={link.href}
-                target={link.target || "_blank"}
-                rel="noopener noreferrer"
-            >
-                {img}
+            <div className={styles.container}>
+                <a
+                    href={link.href}
+                    target={link.target || "_blank"}
+                    rel="noopener noreferrer"
+                >
+                    {img}
+                </a>
                 {text}
-            </a>
+            </div>
         );
     } else {
         return (

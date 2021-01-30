@@ -1,11 +1,11 @@
 .container {
     display: flex;
     flex-direction: column;
-    background-color: var(--secondary-background-color);
 }
 
-.container img {
+.container a img {
     margin: 8px;
+    border: 1px solid #e6e6e6;
 }
 
 .text {
@@ -26,10 +26,6 @@
 
 .text h6 {
     margin: 0.5rem 0.5rem;
-}
-
-.date {
-    font-style: italic;
 }
 
 .hide {
