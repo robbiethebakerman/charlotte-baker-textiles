@@ -20,7 +20,7 @@
 .list li a:focus,
 .list li a:active {
     text-decoration: underline;
-    background-color: var(--highlight-color-1);
+    background-color: var(--accent-grey-3);
 }
 
 .hamburgerSlice {
@@ -53,7 +53,7 @@
         display: block;
         z-index: 1;
         position: fixed;
-        background-color: white;
+        background-color: var(--background-color-1);
         margin-top: 1rem;
     }
 

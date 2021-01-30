@@ -8,6 +8,7 @@ body {
         Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
         sans-serif;
     color: var(--font-color-1);
+    background-color: var(--background-color-1);
 }
 
 a {
@@ -31,7 +32,7 @@ h6 {
 button {
     border: none;
     padding: 0;
-    background-color: white;
+    background-color: transparent;
 }
 
 /* custom properties */
@@ -47,8 +48,18 @@ button {
 
     --accent-grey-1: #f2f2f2;
     --accent-grey-2: #e6e6e6;
+    --accent-grey-3: #d9d9d9;
+    --accent-grey-4: #cccccc;
+    --accent-grey-5: #bfbfbf;
+    --accent-grey-6: #b3b3b3;
+    --accent-grey-7: #a6a6a6;
+    --accent-grey-8: #999999;
+    --accent-grey-9: #8c8c8c;
+    --accent-grey-10: #808080;
 
     --highlight-color-1: #e2f0d9;
+
+    --background-color-1: #eceaea;
 
     /* spacing and layout */
 

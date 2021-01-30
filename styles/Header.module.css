@@ -7,9 +7,15 @@
     align-items: center;
 }
 
-.header h1 {
-    font-size: 1rem;
-    padding-top: 0.5rem;
+.titleBar {
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.titleBar h1 {
+    /* font-size: 1rem; */
 }
 
 .logo {
