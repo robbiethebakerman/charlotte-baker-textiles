@@ -4,8 +4,10 @@ html,
 body {
     padding: 0;
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: europa, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+        Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+        sans-serif;
+    color: var(--main-font-color);
 }
 
 a {
@@ -38,7 +40,7 @@ button {
     --main-highlight-color: #e2f0d9;
     --secondary-font-color: #2f4858;
     --tertiary-font-color: #658a8c;
-    --main-font-color: black;
+    --main-font-color: #333333;
     --secondary-background-color: #f1ebdf;
     --body-width: 1200px;
 }
