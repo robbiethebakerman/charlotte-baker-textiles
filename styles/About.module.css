@@ -1,3 +1,17 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    max-width: 800px;
+}
+
+.flexImageContainer {
+    display: flex;
+    justify-content: center;
+}
+
 .grid {
     margin: 0 1rem;
     display: grid;
