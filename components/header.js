@@ -10,7 +10,7 @@ export default function Header() {
                     alt="Charlotte Baker Textiles logo"
                     className={styles.logo}
                 ></img>
-                <h1>Charlotte Baker Textiles</h1>
+                <h1>CHARLOTTE BAKER TEXTILES</h1>
             </div>
             <Nav />
         </header>

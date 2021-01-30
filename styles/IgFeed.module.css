@@ -1,9 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
 .igLinkContainer {
     display: flex;
+    width: 100%;
     justify-content: space-between;
     background-color: var(--accent-grey-3);
     padding: 1rem;
-    margin: 0 1rem;
     column-gap: 2.5%;
 }
 
@@ -12,13 +20,13 @@
 }
 
 .link {
-    text-decoration: underline;
+    padding: 0.2rem;
 }
 
 .link:hover,
 .link:focus,
 .link:active {
-    background-color: var(--accent-grey-3);
+    border-bottom: var(--font-color-1) solid 4px;
 }
 
 @media screen and (max-width: 899px) {
@@ -27,7 +35,7 @@
     }
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 619px) {
     .igLink:nth-last-child(2) {
         display: none;
     }

@@ -25,22 +25,22 @@ export default function Nav() {
             </button>
             <ul className={listClass}>
                 <li>
-                    <Link href="/">Home</Link>
+                    <Link href="/">HOME</Link>
                 </li>
                 <li>
-                    <Link href="/about">About</Link>
+                    <Link href="/about">ABOUT</Link>
                 </li>
                 <li>
-                    <Link href="/services">Services</Link>
+                    <Link href="/services">SERVICES</Link>
                 </li>
                 <li>
-                    <Link href="/projects">Projects</Link>
+                    <Link href="/projects">PROJECTS</Link>
                 </li>
                 <li>
-                    <Link href="/media">Media</Link>
+                    <Link href="/media">MEDIA</Link>
                 </li>
                 <li>
-                    <Link href="/collection">Collection</Link>
+                    <Link href="/collection">COLLECTION</Link>
                 </li>
             </ul>
         </nav>

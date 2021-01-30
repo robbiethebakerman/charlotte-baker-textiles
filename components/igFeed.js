@@ -21,7 +21,7 @@ export default function IgFeed({ igPosts }) {
 
     return (
         <div className={styles.container}>
-            <h2>
+            <div className={styles.linkContainer}>
                 <a
                     className={styles.link}
                     href="https://www.instagram.com/charlottebakertextiles/"
@@ -30,7 +30,7 @@ export default function IgFeed({ igPosts }) {
                 >
                     @instagram
                 </a>
-            </h2>
+            </div>
             <div className={styles.igLinkContainer}>{igLinks}</div>
         </div>
     );
