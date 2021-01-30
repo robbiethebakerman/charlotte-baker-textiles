@@ -1,10 +1,9 @@
 import styles from "../styles/About.module.css";
 import common from "../styles/Common.module.css";
 import Layout from "../components/layout";
-import IgFeed from "../components/igFeed";
 import FlexImage from "../components/flexImage";
 
-export default function About({ igPosts }) {
+export default function About() {
     return (
         <Layout>
             <h1>About Me</h1>
@@ -37,22 +36,6 @@ export default function About({ igPosts }) {
             <p className={styles.contactText}>
                 Please feel free to contact me for enquiries.
             </p>
-            <IgFeed igPosts={igPosts} />
         </Layout>
     );
-}
-
-export async function getStaticProps() {
-    const res = await fetch(
-        "https://graph.instagram.com/me/media?fields=id,caption,media_type,media_url,permalink,thumbnail_url,username,timestamp&access_token=" +
-            process.env.IG_ACCESS_TOKEN
-    );
-    const igPosts = await res.json();
-
-    return {
-        props: {
-            igPosts: igPosts,
-        },
-        revalidate: 1, // In seconds
-    };
 }
