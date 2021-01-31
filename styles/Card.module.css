@@ -11,6 +11,11 @@
     height: 100%;
 }
 
+.text h5,
+.text h6 {
+    font-weight: normal;
+}
+
 .normalHeading {
     margin: 0.5rem;
 }
