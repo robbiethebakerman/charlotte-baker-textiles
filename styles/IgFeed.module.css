@@ -29,7 +29,7 @@
 .link:hover,
 .link:focus,
 .link:active {
-    border-bottom: var(--font-color-1) solid 4px;
+    border-bottom: var(--font-color-1) solid 0.25rem;
 }
 
 @media screen and (max-width: 899px) {
