@@ -4,21 +4,30 @@ import common from "../styles/Common.module.css";
 export default function FlexImage({
     src,
     alt,
-    caption,
     containerHeight,
     maxwidth,
+    caption,
+    border,
 }) {
+    let containerClass = `${styles.container}`;
+
+    if (border) containerClass += ` ${styles.border}`;
+
     return (
-        <div
-            className={styles.container}
-            style={{
-                height: containerHeight,
-                minHeight: containerHeight,
-                maxWidth: maxwidth,
-            }}
-        >
+        <div>
             <div>
-                <img src={src} alt={alt}></img>
+                <div
+                    className={containerClass}
+                    style={{
+                        height: containerHeight,
+                        minHeight: containerHeight,
+                        maxWidth: maxwidth,
+                    }}
+                >
+                    <div>
+                        <img src={src} alt={alt}></img>
+                    </div>
+                </div>
                 <p className={caption ? styles.caption : common.hide}>
                     {caption}
                 </p>

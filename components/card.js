@@ -17,6 +17,7 @@ export default function Card({
             src={image.src}
             alt={image.alt}
             containerHeight={imageContainerHeight}
+            border={true}
         />
     );
 

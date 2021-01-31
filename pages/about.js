@@ -14,8 +14,9 @@ export default function About() {
                             <FlexImage
                                 src="/CharlotteProfileWorking.jpg"
                                 alt="Charlotte Baker with a mounted dress"
-                                caption="Image blurb"
                                 maxwidth="500px"
+                                border={true}
+                                caption="Image blurb"
                             />
                         </div>
                         <div className={common.textBody}>

@@ -36,7 +36,7 @@ export default function Projects({ igPosts }) {
             <div className={common.textBodyCentred}>
                 <p>This page is currently under construction.</p>
             </div>
-            <CardGrid cardData={projects} imageContainerHeight={"351px"} />
+            <CardGrid cardData={projects} imageContainerHeight={"331px"} />
             <IgFeed igPosts={igPosts} />
         </Layout>
     );

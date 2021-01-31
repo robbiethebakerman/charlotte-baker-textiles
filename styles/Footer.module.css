@@ -9,6 +9,5 @@
 }
 
 .icon {
-    composes: imgOverride from "./Common.module.css";
     height: 1.5rem;
 }

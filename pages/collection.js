@@ -7,14 +7,14 @@ export default function Collection() {
         {
             title: "Textiles",
             image: {
-                src: "https://via.placeholder.com/264x234",
+                src: "https://via.placeholder.com/264x221",
                 alt: "",
             },
         },
         {
             title: "Paper",
             image: {
-                src: "https://via.placeholder.com/264x234",
+                src: "https://via.placeholder.com/264x221",
                 alt: "",
             },
         },
@@ -33,7 +33,7 @@ export default function Collection() {
             <div className={common.textBodyCentred}>
                 <p>This page is currently under construction.</p>
             </div>
-            <CardGrid cardData={collections} imageContainerHeight={"250px"} />
+            <CardGrid cardData={collections} imageContainerHeight={"238px"} />
         </Layout>
     );
 }

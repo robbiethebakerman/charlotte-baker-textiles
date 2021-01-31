@@ -19,6 +19,5 @@
 }
 
 .logo {
-    composes: imgOverride from "./Common.module.css";
     height: 4rem;
 }
