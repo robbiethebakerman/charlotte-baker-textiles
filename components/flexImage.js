@@ -1,4 +1,5 @@
 import styles from "../styles/FlexImage.module.css";
+import common from "../styles/Common.module.css";
 
 export default function FlexImage({
     src,
@@ -9,7 +10,7 @@ export default function FlexImage({
 }) {
     return (
         <div
-            className={styles.imageContainer}
+            className={styles.container}
             style={{
                 height: containerHeight,
                 minHeight: containerHeight,
@@ -18,7 +19,9 @@ export default function FlexImage({
         >
             <div>
                 <img src={src} alt={alt}></img>
-                <p className={styles.imageCaption}>{caption}</p>
+                <p className={caption ? styles.caption : common.hide}>
+                    {caption}
+                </p>
             </div>
         </div>
     );

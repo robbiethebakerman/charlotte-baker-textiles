@@ -1,19 +1,19 @@
-.imageContainer {
+.container {
     height: 100%;
     display: flex;
     justify-content: center;
 }
 
-.imageContainer div {
+.container div {
     display: flex;
     flex-direction: column;
 }
 
-.imageContainer div img {
+.container div img {
     max-width: 100%;
 }
 
-.imageCaption {
+.caption {
     margin-block-start: 0;
     margin-block-end: 0;
     padding-top: 0.5rem;

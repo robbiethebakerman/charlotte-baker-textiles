@@ -1,4 +1,5 @@
 import styles from "../styles/Card.module.css";
+import common from "../styles/Common.module.css";
 import FlexImage from "./flexImage";
 
 export default function Card({
@@ -30,11 +31,11 @@ export default function Card({
             >
                 {title}
             </h5>
-            <h5 className={subTitle ? styles.subTitle : styles.hide}>
+            <h5 className={subTitle ? styles.subTitle : common.hide}>
                 {subTitle}
             </h5>
-            <h6 className={source ? styles.source : styles.hide}>{source}</h6>
-            <h6 className={date ? styles.date : styles.hide}>{date}</h6>
+            <h6 className={source ? styles.source : common.hide}>{source}</h6>
+            <h6 className={date ? styles.date : common.hide}>{date}</h6>
         </div>
     );
 
