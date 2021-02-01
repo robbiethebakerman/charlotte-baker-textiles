@@ -7,14 +7,14 @@ export default function Collection() {
         {
             title: "Textiles",
             image: {
-                src: "https://via.placeholder.com/264x221",
+                src: "/Collection_Textiles.jpg",
                 alt: "",
             },
         },
         {
             title: "Paper",
             image: {
-                src: "https://via.placeholder.com/264x221",
+                src: "/Collection_Paper.jpg",
                 alt: "",
             },
         },
