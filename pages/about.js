@@ -16,7 +16,6 @@ export default function About() {
                                 alt="Charlotte Baker with a mounted dress"
                                 maxwidth="500px"
                                 border={true}
-                                caption="Image blurb"
                             />
                         </div>
                         <div className={common.textBody}>
