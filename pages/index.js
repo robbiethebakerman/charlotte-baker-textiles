@@ -2,11 +2,14 @@ import styles from "../styles/Home.module.css";
 import common from "../styles/Common.module.css";
 import Layout from "../components/layout";
 import IgFeed from "../components/igFeed";
+import Slideshow from "../components/slideshow";
 
 export default function Home({ igPosts }) {
     return (
         <Layout>
-            <h1>Charlotte Baker Textiles</h1>
+            <div className={styles.slideshowContainer}>
+                <Slideshow />
+            </div>
             <IgFeed igPosts={igPosts} />
         </Layout>
     );
