@@ -21,7 +21,7 @@ export default function Nav({ page }) {
     }
 
     return (
-        <nav className={styles.nav}>
+        <nav>
             <button className={hamburgerClass} onClick={handleHamburgerClick}>
                 <div className={styles.hamburgerSlice}></div>
                 <div className={styles.hamburgerSlice}></div>
