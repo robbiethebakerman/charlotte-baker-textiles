@@ -1,5 +1,5 @@
 .selected a {
-    border-bottom: var(--font-color-1) solid 0.25rem;
+    border-bottom: var(--link-bottom-border);
 }
 
 .list {
@@ -27,7 +27,7 @@
 .list li a:hover,
 .list li a:focus,
 .list li a:active {
-    border-bottom: var(--font-color-1) solid 0.25rem;
+    border-bottom: var(--link-bottom-border);
 }
 
 .hamburgerSlice {

@@ -77,4 +77,8 @@ button {
     /* spacing and layout */
 
     --body-width: 1200px;
+
+    /* link styling */
+
+    --link-bottom-border: var(--font-color-1) solid 0.25rem;
 }
