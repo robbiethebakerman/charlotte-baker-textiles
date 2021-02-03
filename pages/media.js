@@ -97,7 +97,7 @@ export default function Media({ igPosts }) {
     ];
 
     return (
-        <Layout>
+        <Layout page="media">
             <h1>Media</h1>
             <CardGrid cardData={blogPosts} imageContainerHeight={"119px"} />
             <IgFeed igPosts={igPosts} />

@@ -5,7 +5,7 @@ import FlexImage from "../components/flexImage";
 
 export default function About() {
     return (
-        <Layout>
+        <Layout page="about">
             <div className={styles.container}>
                 <div className={styles.content}>
                     <h1>About Me</h1>

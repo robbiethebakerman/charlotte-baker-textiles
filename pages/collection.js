@@ -28,7 +28,7 @@ export default function Collection() {
     ];
 
     return (
-        <Layout>
+        <Layout page="collection">
             <h1>Collection</h1>
             <div className={common.textBodyCentred}>
                 <p>This page is currently under construction.</p>

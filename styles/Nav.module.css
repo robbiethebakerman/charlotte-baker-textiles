@@ -1,6 +1,5 @@
-.nav {
-    /* width: 100%; */
-    /* padding: 1rem 0 1rem 1rem; */
+.selected a {
+    border-bottom: var(--font-color-1) solid 0.25rem;
 }
 
 .list {

@@ -36,7 +36,7 @@ export default function Services({ igPosts }) {
     ];
 
     return (
-        <Layout>
+        <Layout page="services">
             <h1>Services</h1>
             <div className={common.textBodyCentred}>
                 <p>This page is currently under construction.</p>

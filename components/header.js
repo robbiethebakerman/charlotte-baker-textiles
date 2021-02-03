@@ -1,7 +1,7 @@
 import styles from "../styles/Header.module.css";
 import Nav from "./nav";
 
-export default function Header() {
+export default function Header({ page }) {
     return (
         <header className={styles.header}>
             <div className={styles.titleBar}>
@@ -12,7 +12,7 @@ export default function Header() {
                 ></img>
                 <h1>CHARLOTTE BAKER TEXTILES</h1>
             </div>
-            <Nav />
+            <Nav page={page} />
         </header>
     );
 }

@@ -31,7 +31,7 @@ export default function Projects({ igPosts }) {
     ];
 
     return (
-        <Layout>
+        <Layout page="projects">
             <h1>Projects</h1>
             <div className={common.textBodyCentred}>
                 <p>This page is currently under construction.</p>

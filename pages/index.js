@@ -6,7 +6,7 @@ import Slideshow from "../components/slideshow";
 
 export default function Home({ igPosts }) {
     return (
-        <Layout>
+        <Layout page="home">
             <div className={styles.slideshowContainer}>
                 <Slideshow />
             </div>
