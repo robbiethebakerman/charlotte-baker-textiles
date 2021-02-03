@@ -51,6 +51,18 @@
         margin-left: 1rem;
     }
 
+    .closeButton div:first-child {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .closeButton div:nth-child(2) {
+        visibility: hidden;
+    }
+
+    .closeButton div:last-child {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
     .list {
         display: none;
     }

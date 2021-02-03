@@ -4,21 +4,25 @@ import React, { useState, useEffect } from "react";
 
 export default function Nav({ page }) {
     const [listClass, setListClass] = useState(styles.list);
+    const [hamburgerClass, setHamburgerClass] = useState(
+        styles.hamburgerButton
+    );
 
     function handleHamburgerClick() {
         if (listClass === styles.list) {
             setListClass(`${styles.listResponsive} ${styles.list}`);
+            setHamburgerClass(
+                `${styles.closeButton} ${styles.hamburgerButton}`
+            );
         } else {
             setListClass(styles.list);
+            setHamburgerClass(styles.hamburgerButton);
         }
     }
 
     return (
         <nav className={styles.nav}>
-            <button
-                className={styles.hamburgerButton}
-                onClick={handleHamburgerClick}
-            >
+            <button className={hamburgerClass} onClick={handleHamburgerClick}>
                 <div className={styles.hamburgerSlice}></div>
                 <div className={styles.hamburgerSlice}></div>
                 <div className={styles.hamburgerSlice}></div>
