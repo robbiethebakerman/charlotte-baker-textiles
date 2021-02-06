@@ -6,7 +6,7 @@ export default function Slideshow() {
     return (
         <div className={styles.container}>
             <FlexImage
-                src="/SlideshowFan.jpg"
+                src="/Slideshow_Fan.jpg"
                 alt="Fan in need of conservation"
                 maxwidth="700px"
             ></FlexImage>
