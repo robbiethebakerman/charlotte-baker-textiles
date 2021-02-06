@@ -6,6 +6,7 @@ export default function FlexImage({
     alt,
     containerHeight,
     maxwidth,
+    maxHeight,
     caption,
     border,
 }) {
@@ -25,7 +26,11 @@ export default function FlexImage({
                     }}
                 >
                     <div>
-                        <img src={src} alt={alt}></img>
+                        <img
+                            src={src}
+                            alt={alt}
+                            style={{ maxHeight: maxHeight }}
+                        ></img>
                     </div>
                 </div>
                 <p className={caption ? styles.caption : common.hide}>

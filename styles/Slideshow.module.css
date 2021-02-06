@@ -1,6 +1,19 @@
 .container {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     background-color: var(--accent-grey-3);
+}
+
+.prev,
+.next {
+    font-size: 4rem;
+    height: fit-content;
+}
+
+.prev {
+}
+
+.next {
 }
