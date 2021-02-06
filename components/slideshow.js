@@ -1,6 +1,7 @@
 import styles from "../styles/Slideshow.module.css";
 import common from "../styles/Common.module.css";
 import Slide from "./slide";
+import React, { useState } from "react";
 
 export default function Slideshow() {
     const slideData = [
