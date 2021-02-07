@@ -6,8 +6,59 @@
     background-color: var(--accent-grey-3);
 }
 
-.prev,
+.button {
+    height: 60px;
+    width: 44px;
+    min-width: 44px;
+    background-color: var(--accent-grey-5);
+}
+
+.button:hover,
+.button:active,
+.button:focus {
+    background-color: var(--accent-grey-7);
+}
+
+.button div {
+    width: 16px;
+    height: 16px;
+    transform: rotate(45deg);
+    position: relative;
+}
+
+.prev {
+    border-left: white solid 2px;
+    border-bottom: white solid 2px;
+    left: 17px;
+}
+
 .next {
-    font-size: 4rem;
-    height: fit-content;
+    border-right: white solid 2px;
+    border-top: white solid 2px;
+    left: 11px;
+}
+
+@media screen and (max-width: 619px) {
+    .button {
+        height: 45px;
+        width: 33px;
+        min-width: 33px;
+    }
+
+    .button div {
+        width: 12px;
+        height: 12px;
+    }
+
+    .prev {
+        border-left-width: 1px;
+        border-bottom-width: 1px;
+        left: 13px;
+    }
+
+    .next {
+        border-right-width: 1px;
+        border-top-width: 1px;
+        left: 8px;
+    }
 }

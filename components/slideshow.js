@@ -51,12 +51,12 @@ export default function Slideshow() {
 
     return (
         <div className={styles.container}>
-            <button className={styles.prev} onClick={prevSlide}>
-                &#10094;
+            <button className={styles.button} onClick={prevSlide}>
+                <div className={styles.prev}></div>
             </button>
             {currentSlide}
-            <button className={styles.next} onClick={nextSlide}>
-                &#10095;
+            <button className={styles.button} onClick={nextSlide}>
+                <div className={styles.next}></div>
             </button>
         </div>
     );
