@@ -4,14 +4,15 @@ import FlexImage from "./flexImage";
 
 export default function Slide({ imageData }) {
     const images = imageData.map((image, index, array) => {
+        const marginRight = index < array.length - 1 ? "1rem" : undefined;
+
         return (
-            <FlexImage
+            <img
                 key={index}
                 src={image.src}
                 alt={image.alt}
-                maxHeight="500px"
-                margin={index < array.length - 1 ? "0 1rem 0 0" : undefined}
-            ></FlexImage>
+                style={{ marginRight: marginRight }}
+            ></img>
         );
     });
 

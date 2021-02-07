@@ -4,6 +4,7 @@ import Slide from "./slide";
 import React, { useState } from "react";
 
 export default function Slideshow() {
+    // max ratio for slide (including all images) = 1.8 : 1
     const slideData = [
         [
             {
