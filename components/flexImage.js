@@ -9,13 +9,14 @@ export default function FlexImage({
     maxHeight,
     caption,
     border,
+    margin,
 }) {
     let containerClass = `${styles.container}`;
 
     if (border) containerClass += ` ${styles.border}`;
 
     return (
-        <div>
+        <div style={{ margin: margin }}>
             <div>
                 <div
                     className={containerClass}
