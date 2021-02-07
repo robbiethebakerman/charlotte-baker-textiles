@@ -13,7 +13,7 @@ export default function Slideshow() {
         ],
         [
             {
-                src: "/Slideshow_ShoeStorageDissertation_Prada.jpg",
+                src: "/Slideshow_ShoeStorageDissertation_Ballet.jpg",
                 alt: "Prada shoes in an external storage mount",
             },
             {
