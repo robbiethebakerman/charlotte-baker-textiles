@@ -39,15 +39,19 @@ export default function Slideshow() {
     }
 
     function nextSlide() {
-        if (slideIndex === slideData.length - 1) return;
-
-        selectSlide(slideIndex + 1);
+        if (slideIndex === slideData.length - 1) {
+            selectSlide(0);
+        } else {
+            selectSlide(slideIndex + 1);
+        }
     }
 
     function prevSlide() {
-        if (slideIndex === 0) return;
-
-        selectSlide(slideIndex - 1);
+        if (slideIndex === 0) {
+            selectSlide(slideData.length - 1);
+        } else {
+            selectSlide(slideIndex - 1);
+        }
     }
 
     return (

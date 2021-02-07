@@ -4,46 +4,58 @@
 
 .slide img {
     max-height: 450px;
+    margin-right: 1rem;
+}
+
+.slide img:last-child {
+    margin-right: 0;
 }
 
 @media screen and (max-width: 919px) {
     .slide img {
         max-height: 395px;
+        margin-right: 0.75rem;
     }
 }
 
 @media screen and (max-width: 819px) {
     .slide img {
         max-height: 340px;
+        margin-right: 0.67rem;
     }
 }
 
 @media screen and (max-width: 719px) {
     .slide img {
         max-height: 282px;
+        margin-right: 0.59rem;
     }
 }
 
 @media screen and (max-width: 619px) {
     .slide img {
         max-height: 230px;
+        margin-right: 0.51rem;
     }
 }
 
 @media screen and (max-width: 519px) {
     .slide img {
         max-height: 174px;
+        margin-right: 0.42rem;
     }
 }
 
 @media screen and (max-width: 419px) {
     .slide img {
         max-height: 146px;
+        margin-right: 0.34rem;
     }
 }
 
 @media screen and (max-width: 359px) {
     .slide img {
         max-height: 118px;
+        margin-right: 0.29rem;
     }
 }
