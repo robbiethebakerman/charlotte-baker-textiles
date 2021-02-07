@@ -5,22 +5,26 @@ import React, { useState } from "react";
 
 export default function Slideshow() {
     const slideData = [
-        {
-            src: "/Slideshow_Fan.jpg",
-            alt: "Fan in need of conservation",
-        },
-        {
-            src: "/Slideshow_ShoeStorageDissertation_Prada.jpg",
-            alt: "Prada shoes in an external storage mount",
-        },
-        {
-            src: "/Slideshow_ShoeStorageDissertation.jpg",
-            alt: "Heeled boots in an external storage mount",
-        },
+        [
+            {
+                src: "/Slideshow_Fan.jpg",
+                alt: "Fan in need of conservation",
+            },
+        ],
+        [
+            {
+                src: "/Slideshow_ShoeStorageDissertation_Prada.jpg",
+                alt: "Prada shoes in an external storage mount",
+            },
+            {
+                src: "/Slideshow_ShoeStorageDissertation.jpg",
+                alt: "Heeled boots in an external storage mount",
+            },
+        ],
     ];
 
     const slides = slideData.map((slide) => {
-        return <Slide src={slide.src} alt={slide.alt} />;
+        return <Slide imageData={slide} />;
     });
 
     const [slideIndex, setSlideIndex] = useState(0);
