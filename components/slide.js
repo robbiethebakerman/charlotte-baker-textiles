@@ -3,9 +3,10 @@ import common from "../styles/Common.module.css";
 import FlexImage from "./flexImage";
 
 export default function Slide({ imageData }) {
-    const images = imageData.map((image) => {
+    const images = imageData.map((image, index) => {
         return (
             <FlexImage
+                key={index}
                 src={image.src}
                 alt={image.alt}
                 maxHeight="500px"
