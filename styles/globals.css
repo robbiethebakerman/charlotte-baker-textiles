@@ -48,6 +48,12 @@ button {
     background-color: transparent;
 }
 
+button:focus,
+a:focus {
+    outline: 2px solid transparent;
+    box-shadow: 0 0 10px 0px var(--accent-grey-10);
+}
+
 /* custom properties */
 
 :root {

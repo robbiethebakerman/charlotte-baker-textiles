@@ -19,6 +19,10 @@
     background-color: var(--accent-grey-7);
 }
 
+.button:focus {
+    box-shadow: 0 0 10px 0px black;
+}
+
 .button div {
     width: 16px;
     height: 16px;
