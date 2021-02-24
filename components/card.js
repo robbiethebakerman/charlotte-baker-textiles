@@ -1,6 +1,7 @@
 import styles from "../styles/Card.module.css";
 import common from "../styles/Common.module.css";
 import FlexImage from "./flexImage";
+import Anchor from "./anchor";
 
 export default function Card({
     title,
@@ -43,13 +44,9 @@ export default function Card({
     if (link) {
         return (
             <div className={styles.container}>
-                <a
-                    href={link.href}
-                    target={link.target || "_blank"}
-                    rel="noopener noreferrer"
-                >
+                <Anchor href={link.href} target={link.target}>
                     {img}
-                </a>
+                </Anchor>
                 {text}
             </div>
         );

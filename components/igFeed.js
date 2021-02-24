@@ -1,35 +1,32 @@
 import styles from "../styles/IgFeed.module.css";
 import FlexImage from "./flexImage";
+import Anchor from "./anchor";
 
 export default function IgFeed({ igPosts }) {
     const igLinks = igPosts.data.slice(0, 5).map((item) => {
         return (
-            <a
+            <Anchor
                 key={item.id}
                 className={styles.igLink}
                 href={item.permalink}
-                target="_blank"
-                rel="noopener noreferrer"
             >
                 <FlexImage
                     src={item.thumbnail_url || item.media_url}
                     alt="Instagram post from Charlotte Baker Textiles"
                 />
-            </a>
+            </Anchor>
         );
     });
 
     return (
         <div className={styles.container}>
             <div className={styles.linkContainer}>
-                <a
+                <Anchor
                     className={styles.link}
                     href="https://www.instagram.com/charlottebakertextiles/"
-                    target="_blank"
-                    rel="noopener noreferrer"
                 >
                     @instagram
-                </a>
+                </Anchor>
             </div>
             <div className={styles.igLinkContainer}>{igLinks}</div>
         </div>
