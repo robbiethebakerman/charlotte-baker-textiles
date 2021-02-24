@@ -11,7 +11,14 @@
     justify-content: space-between;
     background-color: var(--accent-grey-3);
     padding: 1rem;
-    column-gap: 2.5%;
+}
+
+.igLink {
+    margin-left: 1rem;
+}
+
+.igLink:first-child {
+    margin-left: 0;
 }
 
 .igLink img {
